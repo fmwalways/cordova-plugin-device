@@ -55,7 +55,8 @@ public class Device extends CordovaPlugin {
      */
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
         super.initialize(cordova, webView);
-        Device.uuid = getUuid();
+	Log.d(TAG, "cordova-plugin-device initialize not execute getUuid(), only execute getUuid() when your need");
+//         Device.uuid = getUuid();
     }
 
     /**

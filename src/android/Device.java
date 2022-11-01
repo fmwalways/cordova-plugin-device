@@ -18,6 +18,8 @@
 */
 package org.apache.cordova.device;
 
+import android.util.Log;
+
 import java.util.TimeZone;
 
 import org.apache.cordova.CordovaWebView;
